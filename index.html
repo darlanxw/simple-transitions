@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Page Slider</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/pageslider.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="container"></div>
+  <div id="divUm" style="display:none;">
+  <div>
+      <div class="header"><h1>Page Slider</h1></div>
+      <div class="scroller">
+          <ul class="list">
+              <li><a href="#page1"><strong>Build Bot</strong></a></li>
+              <li><a href="#page2"><strong>Medi Bot</strong></a></li>
+              <li><a href="#page3"><strong>Ripple Bot</strong></a></li>
+          </ul>
+      </div>
+  </div>
+</div>
+<div style="display: none;" id="divDois">
+  <div>
+      <div class="header"><a href="#" class="btn">Back</a><h1>Robot</h1></div>
+      <div class="scroller">
+          <div class="robot">
+              <img src="images/buildbot.jpg"/>
+              <h2>{{name}}</h2>
+              <p>{{description}}</p>
+          </div>
+      </div>
+  </div>
+</div>
+<script src="lib/cordova-2.5.0.js"></script>
+<script src="lib/fastclick.js"></script>
+<script src="lib/jquery-1.11.3.min.js"></script>
+<script src="pageslider.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
